@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @rocketseat/gatsby-theme-docs logo" width="100">
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @easycheck/gatsby-theme-docs logo" width="100">
 </p>
 
 <h2 align="center">
-  @rocketseat/gatsby-theme-docs
+  @easycheck/gatsby-theme-docs
 </h2>
 
 <p align="center">

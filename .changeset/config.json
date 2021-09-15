@@ -6,7 +6,7 @@
   ],
   "commit": false,
   "linked": [
-    ["@rocketseat/gatsby-theme-docs", "@rocketseat/gatsby-theme-docs-core"]
+    ["@easycheck/gatsby-theme-docs", "@easycheck/gatsby-theme-docs-core"]
   ],
   "access": "public",
   "baseBranch": "main",

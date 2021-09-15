@@ -3,7 +3,7 @@
     "type: ci": [".github/workflows/**"],
     "type: meta": [".github/**"],
     "type: example": ["examples/**"],
-    "type: gatsby-theme-docs": ["@rocketseat/gatsby-theme-docs/**"],
-    "type: gatsby-theme-docs-core": ["@rocketseat/gatsby-theme-docs-core/**"]
+    "type: gatsby-theme-docs": ["@easycheck/gatsby-theme-docs/**"],
+    "type: gatsby-theme-docs-core": ["@easycheck/gatsby-theme-docs-core/**"]
   }
 }

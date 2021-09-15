@@ -27,9 +27,9 @@
 
 ## Themes
 
-🚀 [`gatsby-theme-docs-core`](./@rocketseat/gatsby-theme-docs-core): The core theme for docs websites that includes all the data structures you need.
+🚀 [`gatsby-theme-docs-core`](./@easycheck/gatsby-theme-docs-core): The core theme for docs websites that includes all the data structures you need.
 
-🚀 [`gatsby-theme-docs`](./@rocketseat/gatsby-theme-docs): Out of the box Gatsby Theme for creating documentation websites easily and quickly.
+🚀 [`gatsby-theme-docs`](./@easycheck/gatsby-theme-docs): Out of the box Gatsby Theme for creating documentation websites easily and quickly.
 
 ## Contributing
 

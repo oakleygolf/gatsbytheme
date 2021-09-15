@@ -1,4 +1,4 @@
-# @rocketseat/gatsby-theme-docs-core
+# @easycheck/gatsby-theme-docs-core
 
 ## 2.3.2
 

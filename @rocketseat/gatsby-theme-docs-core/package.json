@@ -1,8 +1,8 @@
 {
-  "name": "@rocketseat/gatsby-theme-docs-core",
+  "name": "@easycheck/gatsby-theme-docs-core",
   "version": "2.3.2",
   "main": "index.js",
-  "description": "Core theme for @rocketseat/gatsby-theme-docs with no additional theming or style opinions. Includes all of the data structures you need to get up and build a documentation website.",
+  "description": "Core theme for @easycheck/gatsby-theme-docs with no additional theming or style opinions. Includes all of the data structures you need to get up and build a documentation website.",
   "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
   "license": "MIT",
   "publishConfig": {
@@ -18,11 +18,11 @@
     "docs",
     "mdx"
   ],
-  "homepage": "https://github.com/jpedroschmitz/rocketdocs/tree/main/@rocketseat/gatsby-theme-docs-core#readme",
+  "homepage": "https://github.com/jpedroschmitz/rocketdocs/tree/main/@easycheck/gatsby-theme-docs-core#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/jpedroschmitz/rocketdocs.git",
-    "directory": "@rocketseat/gatsby-theme-docs-core"
+    "directory": "@easycheck/gatsby-theme-docs-core"
   },
   "bugs": {
     "url": "https://github.com/jpedroschmitz/rocketdocs/issues"

@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @rocketseat/gatsby-theme-docs logo" width="100">
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @easycheck/gatsby-theme-docs logo" width="100">
 </p>
 
 <h2 align="center">
-  @rocketseat/gatsby-theme-docs-core
+  @easycheck/gatsby-theme-docs-core
 </h2>
 
 <p align="center">
-  Core theme for <a href="https://github.com/jpedroschmitz/rocketdocs/tree/main/%40rocketseat/gatsby-theme-docs">@rocketseat/gatsby-theme-docs</a> with no additional theming or style opinions. Includes all of the data structures you need to get up and build a documentation website.
+  Core theme for <a href="https://github.com/jpedroschmitz/rocketdocs/tree/main/%40rocketseat/gatsby-theme-docs">@easycheck/gatsby-theme-docs</a> with no additional theming or style opinions. Includes all of the data structures you need to get up and build a documentation website.
 </p>
 
 <p align="center">
@@ -38,13 +38,13 @@
 Using Yarn:
 
 ```sh
-yarn add @rocketseat/gatsby-theme-docs-core
+yarn add @easycheck/gatsby-theme-docs-core
 ```
 
 Using NPM:
 
 ```sh
-npm i @rocketseat/gatsby-theme-docs-core
+npm i @easycheck/gatsby-theme-docs-core
 ```
 
 ## 🔥 Usage
@@ -72,7 +72,7 @@ npm i @rocketseat/gatsby-theme-docs-core
 module.exports = {
   plugins: [
     {
-      resolve: `@rocketseat/gatsby-theme-docs-core`,
+      resolve: `@easycheck/gatsby-theme-docs-core`,
       options: {
         basePath: `documentation`,
         configPath: `config`,
@@ -108,7 +108,7 @@ To get all the sidebar items, you can use the `useSidebar` hook. Example:
 
 ```js
 import React from 'react';
-import { useSidebar } from '@rocketseat/gatsby-theme-docs-core';
+import { useSidebar } from '@easycheck/gatsby-theme-docs-core';
 
 export default function Sidebar() {
   const data = useSidebar();
@@ -160,7 +160,7 @@ Every file must have a custom title. Description and image are not required.
 
 Check the [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/themes/shadowing/) docs to understand how to customize this theme!
 
-In general, you will need to create two files (`Docs.js` and `Homepage.js`) into `src/@rocketseat/gatsby-theme-docs-core/components/templates` to shadow/override it.
+In general, you will need to create two files (`Docs.js` and `Homepage.js`) into `src/@easycheck/gatsby-theme-docs-core/components/templates` to shadow/override it.
 
 ## ✨ Contributing
 

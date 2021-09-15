@@ -94,7 +94,7 @@ exports.createPages = (
 
     if (!repositoryUrl && githubUrl) {
       reporter.warn(
-        `@rocketseat/gatsby-theme-docs: The option \`githubUrl\` was deprecated in favor of \`repositoryUrl\`. \nTo remove this warning, replace \`githubUrl\` with \`repositoryUrl\`.`,
+        `@easycheck/gatsby-theme-docs: The option \`githubUrl\` was deprecated in favor of \`repositoryUrl\`. \nTo remove this warning, replace \`githubUrl\` with \`repositoryUrl\`.`,
       );
     }
 

@@ -3,7 +3,7 @@ title: Shadowing
 description: Rocket Docs allows to customize the look by using Gatsby theme shadowing feature.
 ---
 
-To shadow/override this theme, you will need to place your files into `src/@rocketseat/gatsby-theme-docs` folder.
+To shadow/override this theme, you will need to place your files into `src/@easycheck/gatsby-theme-docs` folder.
 
 If you don't know what shadowing is, or have questions about it, [check this tutorial](https://www.gatsbyjs.com/docs/themes/shadowing/) from the Gatsby documentation.
 
@@ -11,7 +11,7 @@ If you don't know what shadowing is, or have questions about it, [check this tut
 
 If you want to change the logo just create the following file:
 
-```js title=src/@rocketseat/gatsby-theme-docs/components/Logo.js
+```js title=src/@easycheck/gatsby-theme-docs/components/Logo.js
 import React from 'react';
 
 export default function Logo(props) {
@@ -32,7 +32,7 @@ export default function Logo(props) {
 
 If your logo is a png, you could use it like this:
 
-```js title=src/@rocketseat/gatsby-theme-docs/components/Logo.js
+```js title=src/@easycheck/gatsby-theme-docs/components/Logo.js
 import React from 'react';
 
 // Path to the logo file on your project
@@ -47,14 +47,14 @@ export default Logo;
 
 ## Changing the home text
 
-Create a file at `src/@rocketseat/gatsby-theme-docs/text/index.mdx` to edit the text. Example:
+Create a file at `src/@easycheck/gatsby-theme-docs/text/index.mdx` to edit the text. Example:
 
-```mdx title=src/@rocketseat/gatsby-theme-docs/text/index.mdx
+```mdx title=src/@easycheck/gatsby-theme-docs/text/index.mdx
 # Introduction
 
 My awesome project!
 
-import Navigation from '@rocketseat/gatsby-theme-docs/src/components/Docs/PostNav';
+import Navigation from '@easycheck/gatsby-theme-docs/src/components/Docs/PostNav';
 
 <Navigation
   prev={null}
@@ -67,11 +67,11 @@ import Navigation from '@rocketseat/gatsby-theme-docs/src/components/Docs/PostNa
 
 ## Changing theme colors
 
-We use Emotion for theming. To change the theme colors, create a file under `src/@rocketseat/gatsby-theme-docs/styles/theme.js`.
+We use Emotion for theming. To change the theme colors, create a file under `src/@easycheck/gatsby-theme-docs/styles/theme.js`.
 
 Remember that you need to restart your server to see the update.
 
-```js title=src/@rocketseat/gatsby-theme-docs/styles/theme.js
+```js title=src/@easycheck/gatsby-theme-docs/styles/theme.js
 export default {
   colors: {
     primary: '#8257E6',
@@ -93,9 +93,9 @@ export default {
 
 You can also change the default font family of the theme.
 
-To do this, create a file under `src/@rocketseat/gatsby-theme-docs/styles/theme.js` (or add to the existing default object if you already started customizing the theme).
+To do this, create a file under `src/@easycheck/gatsby-theme-docs/styles/theme.js` (or add to the existing default object if you already started customizing the theme).
 
-```js title=src/@rocketseat/gatsby-theme-docs/styles/theme.js
+```js title=src/@easycheck/gatsby-theme-docs/styles/theme.js
 export default {
   fonts: {
     fontFace: {
@@ -127,7 +127,7 @@ Font files should be placed in the [`static`](https://www.gatsbyjs.com/docs/how-
 By default we add some elements to React Live Scope. If you need to add more, just
 shadow the following file:
 
-```js title=src/@rocketseat/gatsby-theme-docs/components/Code/LiveCodeScope.js
+```js title=src/@easycheck/gatsby-theme-docs/components/Code/LiveCodeScope.js
 import { mdx } from '@mdx-js/react';
 import { css, jsx } from '@emotion/react';
 

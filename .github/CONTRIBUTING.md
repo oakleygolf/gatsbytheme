@@ -121,7 +121,7 @@ After yarn has linked packages and installed the dependencies in the repo, you c
 yarn workspaces info
 ```
 
-As all themes are set up with a respective example page (to view the theme/changes), you could for example run the "@rocketseat/gatsby-theme-docs" workspace with the example "rocketdocs" like:
+As all themes are set up with a respective example page (to view the theme/changes), you could for example run the "@easycheck/gatsby-theme-docs" workspace with the example "rocketdocs" like:
 
 ```sh
 yarn workspace gatsby-starter-rocketdocs start

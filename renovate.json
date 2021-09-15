@@ -4,7 +4,7 @@
     ":disablePeerDependencies",
     ":preserveSemverRanges"
   ],
-  "includePaths": ["package.json", "examples/**", "@rocketseat/**"],
+  "includePaths": ["package.json", "examples/**", "@easycheck/**"],
   "dependencyDashboard": true,
   "semanticCommits": true,
   "stabilityDays": 3,
@@ -15,7 +15,7 @@
   "packageRules": [
     {
       "groupName": "packages",
-      "paths": ["package.json", "@rocketseat/**"]
+      "paths": ["package.json", "@easycheck/**"]
     },
     {
       "groupName": "starters",
@@ -28,7 +28,7 @@
     },
     {
       "groupName": "packages (<1.0.0 minor)",
-      "paths": ["package.json", "@rocketseat/**"],
+      "paths": ["package.json", "@easycheck/**"],
       "dependencyDashboardApproval": true,
       "updateTypes": ["minor"],
       "packageNames": ["mdx-utils"]

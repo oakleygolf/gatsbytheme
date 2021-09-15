@@ -15,7 +15,7 @@
     "node": ">=8.0.0"
   },
   "workspaces": [
-    "@rocketseat/*",
+    "@easycheck/*",
     "examples/*"
   ],
   "lint-staged": {
